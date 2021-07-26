@@ -1,5 +1,6 @@
 server:
   port: 8080
+
 ---
 
 spring:
@@ -25,10 +26,10 @@ spring:
       bindings:
         event-in:
           group: Pay
-          destination: skhappydelivery
+          destination: keyosk
           contentType: application/json
         event-out:
-          destination: skhappydelivery
+          destination: keyosk
           contentType: application/json
 
 logging:
@@ -36,7 +37,7 @@ logging:
     org.hibernate.type: trace
     org.springframework.cloud: debug
 server:
-  port: 8085
+  port: 8084
 ---
 
 spring:
@@ -57,8 +58,8 @@ spring:
       bindings:
         event-in:
           group: Pay
-          destination: skhappydelivery
+          destination: keyosk
           contentType: application/json
         event-out:
-          destination: skhappydelivery
+          destination: keyosk
           contentType: application/json

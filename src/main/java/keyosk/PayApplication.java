@@ -1,5 +1,5 @@
-package skhappydelivery;
-import skhappydelivery.config.kafka.KafkaProcessor;
+package keyosk;
+import keyosk.config.kafka.KafkaProcessor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

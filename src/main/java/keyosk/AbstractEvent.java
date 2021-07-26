@@ -1,6 +1,6 @@
-package skhappydelivery;
+package keyosk;
 
-import skhappydelivery.config.kafka.KafkaProcessor;
+import keyosk.config.kafka.KafkaProcessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.messaging.MessageChannel;
